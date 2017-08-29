@@ -8,7 +8,7 @@
 \LoadLetterOption{SN}
 \KOMAoptions{paper=a5,
 	paper=landscape,
-	foldmarks=true,
+	foldmarks=false,
 	fromlogo=true,
 	addrfield=true,
 	backaddress=true}
