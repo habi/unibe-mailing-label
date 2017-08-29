@@ -1,28 +1,31 @@
-\ProvidesFile{psilabel.lco}[2011/21/2 lco (Matteo Abis)]
+% File: unibelabel.lco
+% Date: 2017-08-29
+% Author: David Haberthür
+
+% In this file you save the personal information of you.
+% There's no need to change any other files.
+\ProvidesFile{unibelabel.lco}
 \LoadLetterOption{SN}
-\KOMAoptions{paper=a5,%
-	paper=landscape,%
-	foldmarks=false,%
-	fromlogo,%
-	addrfield=true}
+\KOMAoptions{paper=a5,
+	paper=landscape,
+	foldmarks=true,
+	fromlogo=true,
+	addrfield=true,
+	backaddress=true}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[T1]{fontenc}
 \RequirePackage{graphicx}
 \RequirePackage{lmodern}
+\RequirePackage{adjustbox}
 \setkomavar{backaddress}{David Haberthür\\
-	Paul Scherrer Institut\\
-	WBBA/218\\
-	CH-5232 Villigen}
-\newcommand{\size}{1.5cm}
-\setkomavar{fromlogo}{%
-	\includegraphics[height=\size]{logo-tomcat}
-	\hspace{\size}
-	\hspace{3mm}
-	\hspace{\size}
-	\includegraphics[height=\size]{logo-psi}}
-\@setplength{toaddrhpos}{72.0mm}
-\@setplength{toaddrvpos}{42.4mm}
-\@setplength{toaddrwidth}{68.0mm}
-\@setplength{toaddrheight}{42.4mm}
+	University of Bern\\
+	Institute of Anatomy\\
+	Baltzerstrasse 2\\
+	Postfach 922\\
+	CH-3000 Bern 9}
+\setkomavar{fromlogo}{\adjustbox{valign=t}{\includegraphics[width=3cm]{ub_16pt-cmyk}}}
+\@setplength{toaddrhpos}{37mm} % set so that the line under *my* name aligns with the ublogo line
+\@setplength{toaddrvpos}{68mm} % set so that the underline under the `addrfield` is in the middle of the page
+\@setplength{toaddrheight}{67mm} % set so that the (4 line) recipient address is in the lower quarter of the page
 \date{}
 \endinput
