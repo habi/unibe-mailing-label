@@ -1,11 +1,12 @@
 # LaTeX template for an Unibe parcel label
 
 This repository is based on the [PSI letter and label template](https://gitlab.psi.ch/abis_m/LaTeX-letter-and-maillabel/), which I whipped up during my Postdoc at PSI.
+It's useful if you just want to slap a parcel label onto something you want to send to someone.
 
-If you want to write an official Unibe letter with LaTeX, there's an official `ubletter.cls` LaTeX template.
-You can download it (internally from Unibe or via VPN) from the [Kommunikation und Marketing](http://intern.unibe.ch/dienstleistungen/kommunikation_und_marketing/print/corporate_design/brief_set/index_ger.html) page.
+If you want to write an official looking [University of Bern](https://unibe.ch) *letter* with LaTeX, there's a quite good `ubletter.cls` LaTeX template.
+You can download it (internally from Unibe or via VPN) from the [Kommunikation und Marketing](http://intern.unibe.ch/dienstleistungen/kommunikation_und_marketing/print/vorlagen_zum_download/brief_set/index_ger.html) page.
 
-The official Unibe logo is copied from [here](http://intern.unibe.ch/dienstleistungen/kommunikation_und_marketing/print/corporate_design/logo_schriften_amp_farben/index_ger.html)
+The official Unibe logo is copied from [here](http://intern.unibe.ch/dienstleistungen/kommunikation_und_marketing/print/vorlagen_zum_download/logo_schriften_amp_farben/index_ger.html).
 
 ## Send a parcel
 * Edit your details in `unibelabel.lco`
