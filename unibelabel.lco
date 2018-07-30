@@ -8,7 +8,7 @@
 \LoadLetterOption{SN}
 \KOMAoptions{paper=a5,
 	paper=landscape,
-	foldmarks=true,
+	foldmarks=false,
 	fromlogo=true,
 	addrfield=true,
 	backaddress=true}
@@ -17,12 +17,11 @@
 \RequirePackage{graphicx}
 \RequirePackage{lmodern}
 \RequirePackage{adjustbox}
-\setkomavar{backaddress}{David Haberthür\\
+\setkomavar{backaddress}{John Doe\\
 	University of Bern\\
-	Institute of Anatomy\\
-	Baltzerstrasse 2\\
-	Postfach 922\\
-	CH-3000 Bern 9}
+	Institute of Bogus Scienc\\
+	Somewhere 123\\
+	CH-3012 Bern}
 \setkomavar{fromlogo}{\adjustbox{valign=t}{\includegraphics[width=3cm]{ub_16pt-cmyk}}}
 \@setplength{toaddrhpos}{37mm} % set so that the line under *my* name aligns with the ublogo line
 \@setplength{toaddrvpos}{68mm} % set so that the underline under the `addrfield` is in the middle of the page
